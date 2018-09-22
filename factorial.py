@@ -1,7 +1,8 @@
 # Zhihang Cheng
-def factorial(a):
-    while a>0:
-        a*=(a-1)
-        a-=1
-    return a;
+def factorial(n):
+    num = 1
+    while n >= 1:
+        num = num * n
+        n = n - 1
+    return num
 
